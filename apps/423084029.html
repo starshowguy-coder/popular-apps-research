@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>美团-问美团，都安排 · App 详情</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Tahoma", sans-serif; }
+  body.lang-zh .i18n-ar, body.lang-ar .i18n-zh { display: none; }
+  body.lang-ar .i18n-ar { display: inline; }
+  body.lang-ar { direction: rtl; text-align: right; }
+  body.lang-ar .i18n-ar { font-family: "Tahoma", "Segoe UI", "Arial", sans-serif; line-height: 1.7; }
+  .lang-switch { display: inline-flex; gap: 0; border: 1px solid #cbd5e1; border-radius: 9999px; overflow: hidden; background: white; }
+  .lang-switch button { padding: 0.35rem 0.85rem; font-size: 0.8rem; background: white; color: #475569; border: none; cursor: pointer; }
+  .lang-switch button.active { background: #111827; color: white; }
+  .desc-content { white-space: pre-wrap; }
+  .desc-collapsed { max-height: 12rem; overflow: hidden; position: relative; }
+  .desc-collapsed::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3rem; background: linear-gradient(transparent, white); }
+</style>
+</head>
+<body class="lang-zh bg-slate-50 min-h-screen">
+
+<header class="bg-white border-b border-slate-200 sticky top-0 z-20 backdrop-blur bg-white/90">
+  <div class="max-w-5xl mx-auto px-5 py-3 flex items-center justify-between flex-wrap gap-3">
+    <a href="../categories.html" class="text-sm text-slate-600 hover:text-blue-600">
+      <span class="i18n-zh">← 返回品类画廊</span><span class="i18n-ar">← العودة إلى المعرض</span>
+    </a>
+    <div class="lang-switch">
+      <button data-lang="zh" class="active">中文</button>
+      <button data-lang="ar">العربية</button>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-5xl mx-auto px-5 py-6 space-y-5">
+
+  <!-- App Hero -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+    <div class="bg-gradient-to-br from-red-500 to-orange-500 p-6 text-white">
+      <div class="flex items-start gap-5 flex-wrap">
+        <img src="../app_icons/food_delivery_cn_-.jpg" class="w-28 h-28 rounded-3xl shadow-lg flex-shrink-0" alt="美团-问美团，都安排">
+        <div class="flex-1 min-w-0">
+          <div class="text-xs uppercase tracking-widest opacity-80 mb-1">
+            🍔 外卖/餐饮配送
+          </div>
+          <h1 class="text-2xl font-bold mb-1">美团-问美团，都安排</h1>
+          <div class="text-sm opacity-90 mb-3">Sankuai Technology Co., Ltd.</div>
+          <div class="flex gap-2 items-center flex-wrap">
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">★ 4.40</span>
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">113.6万 评分 / تقييم</span>
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">免费 / مجاني</span>
+            <a href="https://apps.apple.com/cn/app/%E7%BE%8E%E5%9B%A2-%E9%97%AE%E7%BE%8E%E5%9B%A2-%E9%83%BD%E5%AE%89%E6%8E%92/id423084029?uo=4" target="_blank" rel="noopener"
+               class="bg-white text-slate-900 px-4 py-1 rounded-full text-sm font-medium hover:bg-slate-100">
+              App Store ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rankings -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📊 4 国当前榜单排名</span><span class="i18n-ar">📊 الترتيب الحالي في 4 أسواق</span>
+    </h2>
+    <p class="text-xs text-slate-500 mb-3">
+      <span class="i18n-zh">数据来源：Apple Marketing Tools RSS · 实时榜单 Top 100</span>
+      <span class="i18n-ar">المصدر: Apple Marketing Tools RSS · أحدث ترتيب Top 100</span>
+    </p>
+    
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇨🇳</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">中国</span><span class="i18n-ar">الصين</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="inline-flex items-center px-2 py-1 rounded text-white text-xs bg-amber-500"><span class="i18n-zh">免费榜</span><span class="i18n-ar">المجاني</span> #22</span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇪🇬</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">埃及</span><span class="i18n-ar">مصر</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇸🇦</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">沙特</span><span class="i18n-ar">السعودية</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇺🇸</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">美国</span><span class="i18n-ar">الولایات المتحدة</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+  </section>
+
+  <!-- Screenshots -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📸 应用截图</span><span class="i18n-ar">📸 لقطات الشاشة</span>
+    </h2>
+    <div class="mb-3"><div class="text-xs uppercase tracking-wide text-slate-500 mb-2"><span class="i18n-zh">📱 iPhone</span><span class="i18n-ar">📱 iPhone</span></div><div class="flex gap-3 overflow-x-auto pb-2"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/9c/a1/559ca193-e505-14ef-87a0-99c6f581f383/_U6d7c_U6c2c_U61b3_U0026_U68e3_U682d_U3009-5.5@2x.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/85/20/2b8520eb-6b46-dcd0-ecfe-6bf15082de01/_U627e_U4f18_U60e02-5.5@2x.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/a8/4a/2ca84a8e-4924-5064-0ab3-e881a375e2e3/_U95ea_U8d2d_U0026_U56e2_U8d2d-5.5@2x.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"></div></div><div><div class="text-xs uppercase tracking-wide text-slate-500 mb-2"><span class="i18n-zh">📲 iPad</span><span class="i18n-ar">📲 iPad</span></div><div class="flex gap-3 overflow-x-auto pb-2"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/39/2a/1b392a9d-9539-c17b-153c-43d92091da5b/_U6d7c_U6c2c_U61b3_U0026_U68e3_U682d_U300912.9__U6d5c_U5c7c_U552c@2x.png/576x768bb.png" loading="lazy" class="h-72 rounded-lg shadow-sm flex-shrink-0" alt="iPad screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/0f/e5/700fe5a4-869d-05c3-9b36-f11b4e2b8849/_U627e_U4f18_U60e02-12.9__U4e8c_U4ee3@2x.png/576x768bb.png" loading="lazy" class="h-72 rounded-lg shadow-sm flex-shrink-0" alt="iPad screenshot"></div></div>
+  </section>
+
+  <!-- Description -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📝 应用描述</span><span class="i18n-ar">📝 وصف التطبيق</span>
+    </h2>
+    <div id="desc" class="desc-content desc-collapsed text-sm text-slate-700 leading-relaxed">【特色服务】
+1. 吃喝玩乐一应俱全
+◇在线预订餐厅桌位，省时安心不用等位
+◇外卖订餐水果宵夜，酒店旅游周边推荐
+◇美团跑腿，一小时，全城送
+◇美团优选购生鲜，新鲜实惠，当日下单，次日自提
+◇美团拼好饭，提供极具性价比的外卖选择，0配送费，无起送价
+◇小象超市，美团自营生鲜百货平台，你需要的一站购齐，快至30分钟送达，让你省心省力省时间！
+◇美团地图全面升级，点击店铺地址栏，提供检索、路线规划等特色功能，更多惊喜功能期待您去发现
+
+2. 旅游出行一站搞定
+◇机票低价优质出行，全国汽车票在线预订更优惠
+◇美团打车优惠不停，快车专车出租车便捷出发
+◇美团单车电单车免押金骑行，更优惠更便捷
+◇查公交、查到站，车辆到站提前提醒，一站式安心乘公交
+
+3. 全国影讯在线选座
+◇影院会员卡商家券，电影购票享超值更优惠
+◇热映影片团购订座，大片预告电影抢先看起
+
+【产品特点】
+吃喝玩乐全都有：美食精选、外卖订餐、酒店预订、旅游团购、电商品牌秒杀、机票打折、电影特价、打车出租车等团购实惠根本停不下来！
+◇情侣约会：吃美食、看电影、住酒店、去旅游；
+◇懒宅点餐：美食、水果、鲜花、下午茶、超市百货
+◇朋友轰趴：按摩足疗、KTV、桌游电玩；
+◇旅游周边：机票、火车票、景点门票、跟团游；
+◇打车出行：美团打车，快车、专车、出租车；
+◇美团单车：美团单车、美团电单车；
+◇品牌秒杀：产地果蔬、品牌食品、家居百货</div>
+    <button onclick="document.getElementById('desc').classList.toggle('desc-collapsed'); this.textContent = this.textContent.includes('展开') || this.textContent.includes('عرض') ? this.dataset.collapsed : this.dataset.expanded"
+            data-expanded="收起 / إخفاء" data-collapsed="展开全文 / عرض المزيد"
+            class="mt-2 text-blue-600 text-sm hover:underline">
+      展开全文 / عرض المزيد
+    </button>
+  </section>
+
+  <!-- Info Table -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">ℹ️ 基本信息</span><span class="i18n-ar">ℹ️ المعلومات الأساسية</span>
+    </h2>
+    <table class="w-full"><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">类别</span><span class="i18n-ar">الفئة</span></td><td class="py-2 text-slate-900 text-sm">Lifestyle</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">版本</span><span class="i18n-ar">الإصدار</span></td><td class="py-2 text-slate-900 text-sm">12.58.201</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">大小</span><span class="i18n-ar">الحجم</span></td><td class="py-2 text-slate-900 text-sm">225.1 MB</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">发布日期</span><span class="i18n-ar">تاريخ الإصدار</span></td><td class="py-2 text-slate-900 text-sm">2011-03-13</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">更新日期</span><span class="i18n-ar">تاريخ التحديث</span></td><td class="py-2 text-slate-900 text-sm">2026-05-20</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">价格</span><span class="i18n-ar">السعر</span></td><td class="py-2 text-slate-900 text-sm"><span class="i18n-zh">免费</span><span class="i18n-ar">مجاني</span></td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">内容评级</span><span class="i18n-ar">التصنيف العمري</span></td><td class="py-2 text-slate-900 text-sm">17+</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">支持设备数</span><span class="i18n-ar">عدد الأجهزة المدعومة</span></td><td class="py-2 text-slate-900 text-sm">127</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">支持语言</span><span class="i18n-ar">اللغات المدعومة</span></td><td class="py-2 text-slate-900 text-sm">EN, ZH, ZH</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3">Bundle ID</td><td class="py-2 text-slate-900 text-sm"><code class="bg-slate-100 px-1 rounded text-xs">com.meituan.imeituan</code></td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3">Track ID</td><td class="py-2 text-slate-900 text-sm">423084029</td></tr></table>
+  </section>
+
+  <!-- Found in Markets -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">🌍 被发现在</span><span class="i18n-ar">🌍 تم العثور عليه في</span>
+    </h2>
+    
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-xl">🇨🇳</div>
+          <div class="flex-1">
+            <div class="font-medium text-sm"><span class="i18n-zh">中国</span><span class="i18n-ar">الصين</span></div>
+            <div class="text-xs text-slate-500"><span class="i18n-zh">搜索词</span><span class="i18n-ar">كلمة البحث</span>: <code class="bg-slate-100 px-1 rounded">外卖</code></div>
+          </div>
+          <div class="text-xs text-slate-600">113.6万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+        </div>
+        
+  </section>
+
+  <!-- Similar Apps -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">🔍 同品类相似应用</span><span class="i18n-ar">🔍 تطبيقات مشابهة في نفس الفئة</span>
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-1">
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/food_delivery_cn_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">美团外卖-外卖订餐,送啥都快</div>
+            <div class="text-xs text-slate-500">★ 4.80 · 958.9万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/food_delivery_cn_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">淘宝闪购-点外卖更优惠</div>
+            <div class="text-xs text-slate-500">★ 4.88 · 1220.7万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/food_delivery_eg_Glovo.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">Glovo: توصيل الطعام والمزيد</div>
+            <div class="text-xs text-slate-500">★ 4.75 · 1.8万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/food_delivery_eg_app.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">طلبات: الطعام والبقالة وغيره</div>
+            <div class="text-xs text-slate-500">★ 4.68 · 30.3万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/food_delivery_eg_MRSOOL.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">MRSOOL | مرسول</div>
+            <div class="text-xs text-slate-500">★ 3.92 · 8.5万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        </div>
+  </section>
+
+</main>
+
+<footer class="text-center py-8 text-xs text-slate-400">
+  <span class="i18n-zh">生成于 2026-05-23 18:33 · 数据来源 Apple iTunes API</span>
+  <span class="i18n-ar">تم الإنشاء في 2026-05-23 18:33 · المصدر Apple iTunes API</span>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.body.classList.remove('lang-zh', 'lang-ar');
+    document.body.classList.add('lang-' + lang);
+    document.documentElement.lang = lang === 'ar' ? 'ar' : 'zh-CN';
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.querySelectorAll('.lang-switch button').forEach(b => {
+      b.classList.toggle('active', b.dataset.lang === lang);
+    });
+    try { localStorage.setItem('popular_lang', lang); } catch(e) {}
+  }
+  document.querySelectorAll('.lang-switch button').forEach(b => {
+    b.addEventListener('click', () => setLang(b.dataset.lang));
+  });
+  try {
+    const saved = localStorage.getItem('popular_lang');
+    if (saved === 'ar' || saved === 'zh') setLang(saved);
+  } catch(e) {}
+</script>
+</body>
+</html>

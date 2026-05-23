@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File Transfer App · App 详情</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Tahoma", sans-serif; }
+  body.lang-zh .i18n-ar, body.lang-ar .i18n-zh { display: none; }
+  body.lang-ar .i18n-ar { display: inline; }
+  body.lang-ar { direction: rtl; text-align: right; }
+  body.lang-ar .i18n-ar { font-family: "Tahoma", "Segoe UI", "Arial", sans-serif; line-height: 1.7; }
+  .lang-switch { display: inline-flex; gap: 0; border: 1px solid #cbd5e1; border-radius: 9999px; overflow: hidden; background: white; }
+  .lang-switch button { padding: 0.35rem 0.85rem; font-size: 0.8rem; background: white; color: #475569; border: none; cursor: pointer; }
+  .lang-switch button.active { background: #111827; color: white; }
+  .desc-content { white-space: pre-wrap; }
+  .desc-collapsed { max-height: 12rem; overflow: hidden; position: relative; }
+  .desc-collapsed::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3rem; background: linear-gradient(transparent, white); }
+</style>
+</head>
+<body class="lang-zh bg-slate-50 min-h-screen">
+
+<header class="bg-white border-b border-slate-200 sticky top-0 z-20 backdrop-blur bg-white/90">
+  <div class="max-w-5xl mx-auto px-5 py-3 flex items-center justify-between flex-wrap gap-3">
+    <a href="../categories.html" class="text-sm text-slate-600 hover:text-blue-600">
+      <span class="i18n-zh">← 返回品类画廊</span><span class="i18n-ar">← العودة إلى المعرض</span>
+    </a>
+    <div class="lang-switch">
+      <button data-lang="zh" class="active">中文</button>
+      <button data-lang="ar">العربية</button>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-5xl mx-auto px-5 py-6 space-y-5">
+
+  <!-- App Hero -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+    <div class="bg-gradient-to-br from-slate-500 to-zinc-500 p-6 text-white">
+      <div class="flex items-start gap-5 flex-wrap">
+        <img src="../app_icons/file_share_sa_File_Transfer_App.jpg" class="w-28 h-28 rounded-3xl shadow-lg flex-shrink-0" alt="File Transfer App">
+        <div class="flex-1 min-w-0">
+          <div class="text-xs uppercase tracking-widest opacity-80 mb-1">
+            📤 文件传输/分享
+          </div>
+          <h1 class="text-2xl font-bold mb-1">File Transfer App</h1>
+          <div class="text-sm opacity-90 mb-3">Evgeniy Shcherbinin</div>
+          <div class="flex gap-2 items-center flex-wrap">
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">★ 4.70</span>
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">421 评分 / تقييم</span>
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">免费 / مجاني</span>
+            <a href="https://apps.apple.com/sa/app/file-transfer-app/id1233997232?l=ar&uo=4" target="_blank" rel="noopener"
+               class="bg-white text-slate-900 px-4 py-1 rounded-full text-sm font-medium hover:bg-slate-100">
+              App Store ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rankings -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📊 4 国当前榜单排名</span><span class="i18n-ar">📊 الترتيب الحالي في 4 أسواق</span>
+    </h2>
+    <p class="text-xs text-slate-500 mb-3">
+      <span class="i18n-zh">数据来源：Apple Marketing Tools RSS · 实时榜单 Top 100</span>
+      <span class="i18n-ar">المصدر: Apple Marketing Tools RSS · أحدث ترتيب Top 100</span>
+    </p>
+    
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇨🇳</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">中国</span><span class="i18n-ar">الصين</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇪🇬</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">埃及</span><span class="i18n-ar">مصر</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇸🇦</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">沙特</span><span class="i18n-ar">السعودية</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇺🇸</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">美国</span><span class="i18n-ar">الولایات المتحدة</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+  </section>
+
+  <!-- Screenshots -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📸 应用截图</span><span class="i18n-ar">📸 لقطات الشاشة</span>
+    </h2>
+    <div class="mb-3"><div class="text-xs uppercase tracking-wide text-slate-500 mb-2"><span class="i18n-zh">📱 iPhone</span><span class="i18n-ar">📱 iPhone</span></div><div class="flex gap-3 overflow-x-auto pb-2"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/13/b5/85/13b5850e-256f-3b08-e6bf-efcefd24b832/228aab2a-8205-4ff6-a97a-f113b01d3032_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2022-12-30_at_04.50.16.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/15/67/08/15670844-0f77-eaf8-8e45-f0cd755cb92e/f073cae0-ecc5-4a5f-8f69-cad7e7bca4f3_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2022-12-30_at_01.59.23.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/10/8b/94/108b9449-75a6-2d8f-7494-3c33a6ea011f/62834077-873b-406c-ba5c-9eb030c99999_Simulator_Screen_Shot_-_iPhone_8_Plus_-_2022-10-04_at_12.45.22.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"></div></div><div><div class="text-xs uppercase tracking-wide text-slate-500 mb-2"><span class="i18n-zh">📲 iPad</span><span class="i18n-ar">📲 iPad</span></div><div class="flex gap-3 overflow-x-auto pb-2"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/00/cb/23/00cb237d-7a8a-3bb6-4901-badf2b7a9741/4afd6a35-edd8-4ef4-b7ad-60cf20e217dd_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00283rd_generation_U0029_-_2022-12-31_at_01.24.57.png/576x768bb.png" loading="lazy" class="h-72 rounded-lg shadow-sm flex-shrink-0" alt="iPad screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource123/v4/b2/dc/48/b2dc4895-4ae3-51f0-089b-7f5bf5679ebe/9948b333-ffb4-4fee-bd40-455fe23e47b8_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00283rd_generation_U0029_-_2022-12-31_at_01.22.28.png/576x768bb.png" loading="lazy" class="h-72 rounded-lg shadow-sm flex-shrink-0" alt="iPad screenshot"></div></div>
+  </section>
+
+  <!-- Description -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📝 应用描述</span><span class="i18n-ar">📝 وصف التطبيق</span>
+    </h2>
+    <div id="desc" class="desc-content desc-collapsed text-sm text-slate-700 leading-relaxed">File Transfer App allows you to share files between your iPhone, iPad, Computer and any other nearby device with any operating system.
+
+The app provides you with two ways of sharing files between your iPhone and another device:
+
+(1) Using a Web Page: Share files between your iPhone and another device using the app's webpage and any web browser. 
+
+In this case the webpage is hosted by the app's embedded server on your iPhone within your WiFi network. The webpage can be accessed only inside your WiFi network while the app is showing address of the webpage.
+
+This way you can download the selected</div>
+    <button onclick="document.getElementById('desc').classList.toggle('desc-collapsed'); this.textContent = this.textContent.includes('展开') || this.textContent.includes('عرض') ? this.dataset.collapsed : this.dataset.expanded"
+            data-expanded="收起 / إخفاء" data-collapsed="展开全文 / عرض المزيد"
+            class="mt-2 text-blue-600 text-sm hover:underline">
+      展开全文 / عرض المزيد
+    </button>
+  </section>
+
+  <!-- Info Table -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">ℹ️ 基本信息</span><span class="i18n-ar">ℹ️ المعلومات الأساسية</span>
+    </h2>
+    <table class="w-full"><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">类别</span><span class="i18n-ar">الفئة</span></td><td class="py-2 text-slate-900 text-sm">Productivity</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">版本</span><span class="i18n-ar">الإصدار</span></td><td class="py-2 text-slate-900 text-sm">6.1</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">大小</span><span class="i18n-ar">الحجم</span></td><td class="py-2 text-slate-900 text-sm">70.5 MB</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">发布日期</span><span class="i18n-ar">تاريخ الإصدار</span></td><td class="py-2 text-slate-900 text-sm">2017-05-16</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">更新日期</span><span class="i18n-ar">تاريخ التحديث</span></td><td class="py-2 text-slate-900 text-sm">2022-12-31</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">价格</span><span class="i18n-ar">السعر</span></td><td class="py-2 text-slate-900 text-sm"><span class="i18n-zh">免费</span><span class="i18n-ar">مجاني</span></td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">内容评级</span><span class="i18n-ar">التصنيف العمري</span></td><td class="py-2 text-slate-900 text-sm">4+</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">支持设备数</span><span class="i18n-ar">عدد الأجهزة المدعومة</span></td><td class="py-2 text-slate-900 text-sm">131</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">支持语言</span><span class="i18n-ar">اللغات المدعومة</span></td><td class="py-2 text-slate-900 text-sm">EN, RU, ES</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3">Bundle ID</td><td class="py-2 text-slate-900 text-sm"><code class="bg-slate-100 px-1 rounded text-xs">com.evgeniishcherbinin.Photo-Transfer</code></td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3">Track ID</td><td class="py-2 text-slate-900 text-sm">1233997232</td></tr></table>
+  </section>
+
+  <!-- Found in Markets -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">🌍 被发现在</span><span class="i18n-ar">🌍 تم العثور عليه في</span>
+    </h2>
+    
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-xl">🇸🇦</div>
+          <div class="flex-1">
+            <div class="font-medium text-sm"><span class="i18n-zh">沙特</span><span class="i18n-ar">السعودية</span></div>
+            <div class="text-xs text-slate-500"><span class="i18n-zh">搜索词</span><span class="i18n-ar">كلمة البحث</span>: <code class="bg-slate-100 px-1 rounded">file transfer</code></div>
+          </div>
+          <div class="text-xs text-slate-600">421 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-xl">🇺🇸</div>
+          <div class="flex-1">
+            <div class="font-medium text-sm"><span class="i18n-zh">美国</span><span class="i18n-ar">الولایات المتحدة</span></div>
+            <div class="text-xs text-slate-500"><span class="i18n-zh">搜索词</span><span class="i18n-ar">كلمة البحث</span>: <code class="bg-slate-100 px-1 rounded">file transfer</code></div>
+          </div>
+          <div class="text-xs text-slate-600">5,366 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+        </div>
+        
+  </section>
+
+  <!-- Similar Apps -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">🔍 同品类相似应用</span><span class="i18n-ar">🔍 تطبيقات مشابهة في نفس الفئة</span>
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-1">
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/file_share_cn_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">换机助手-腾讯通讯录相册手机搬家</div>
+            <div class="text-xs text-slate-500">★ 4.86 · 25.5万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/file_share_cn_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">快牙 - 跨平台传输神器，媒体中心</div>
+            <div class="text-xs text-slate-500">★ 4.72 · 5.1万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/file_share_cn_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">文件传输 - 隔空投送</div>
+            <div class="text-xs text-slate-500">★ 4.45 · 88 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/file_share_eg_SHAREit.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">SHAREit: نقل ومشاركة الملفات</div>
+            <div class="text-xs text-slate-500">★ 4.36 · 4.8万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/file_share_eg_Xender.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">Xender: نقل، مشاركة الملفات</div>
+            <div class="text-xs text-slate-500">★ 4.27 · 734 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        </div>
+  </section>
+
+</main>
+
+<footer class="text-center py-8 text-xs text-slate-400">
+  <span class="i18n-zh">生成于 2026-05-23 18:33 · 数据来源 Apple iTunes API</span>
+  <span class="i18n-ar">تم الإنشاء في 2026-05-23 18:33 · المصدر Apple iTunes API</span>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.body.classList.remove('lang-zh', 'lang-ar');
+    document.body.classList.add('lang-' + lang);
+    document.documentElement.lang = lang === 'ar' ? 'ar' : 'zh-CN';
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.querySelectorAll('.lang-switch button').forEach(b => {
+      b.classList.toggle('active', b.dataset.lang === lang);
+    });
+    try { localStorage.setItem('popular_lang', lang); } catch(e) {}
+  }
+  document.querySelectorAll('.lang-switch button').forEach(b => {
+    b.addEventListener('click', () => setLang(b.dataset.lang));
+  });
+  try {
+    const saved = localStorage.getItem('popular_lang');
+    if (saved === 'ar' || saved === 'zh') setLang(saved);
+  } catch(e) {}
+</script>
+</body>
+</html>

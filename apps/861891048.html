@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>探探－探索精彩探索爱 · App 详情</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Tahoma", sans-serif; }
+  body.lang-zh .i18n-ar, body.lang-ar .i18n-zh { display: none; }
+  body.lang-ar .i18n-ar { display: inline; }
+  body.lang-ar { direction: rtl; text-align: right; }
+  body.lang-ar .i18n-ar { font-family: "Tahoma", "Segoe UI", "Arial", sans-serif; line-height: 1.7; }
+  .lang-switch { display: inline-flex; gap: 0; border: 1px solid #cbd5e1; border-radius: 9999px; overflow: hidden; background: white; }
+  .lang-switch button { padding: 0.35rem 0.85rem; font-size: 0.8rem; background: white; color: #475569; border: none; cursor: pointer; }
+  .lang-switch button.active { background: #111827; color: white; }
+  .desc-content { white-space: pre-wrap; }
+  .desc-collapsed { max-height: 12rem; overflow: hidden; position: relative; }
+  .desc-collapsed::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3rem; background: linear-gradient(transparent, white); }
+</style>
+</head>
+<body class="lang-zh bg-slate-50 min-h-screen">
+
+<header class="bg-white border-b border-slate-200 sticky top-0 z-20 backdrop-blur bg-white/90">
+  <div class="max-w-5xl mx-auto px-5 py-3 flex items-center justify-between flex-wrap gap-3">
+    <a href="../categories.html" class="text-sm text-slate-600 hover:text-blue-600">
+      <span class="i18n-zh">← 返回品类画廊</span><span class="i18n-ar">← العودة إلى المعرض</span>
+    </a>
+    <div class="lang-switch">
+      <button data-lang="zh" class="active">中文</button>
+      <button data-lang="ar">العربية</button>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-5xl mx-auto px-5 py-6 space-y-5">
+
+  <!-- App Hero -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+    <div class="bg-gradient-to-br from-violet-500 to-fuchsia-500 p-6 text-white">
+      <div class="flex items-start gap-5 flex-wrap">
+        <img src="../app_icons/social_cn_app.jpg" class="w-28 h-28 rounded-3xl shadow-lg flex-shrink-0" alt="探探－探索精彩探索爱">
+        <div class="flex-1 min-w-0">
+          <div class="text-xs uppercase tracking-widest opacity-80 mb-1">
+            👥 社交媒体
+          </div>
+          <h1 class="text-2xl font-bold mb-1">探探－探索精彩探索爱</h1>
+          <div class="text-sm opacity-90 mb-3">Tantan Cultural Development (Beijing) Co., Ltd.</div>
+          <div class="flex gap-2 items-center flex-wrap">
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">★ 4.78</span>
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">115.3万 评分 / تقييم</span>
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">免费 / مجاني</span>
+            <a href="https://apps.apple.com/cn/app/%E6%8E%A2%E6%8E%A2-%E6%8E%A2%E7%B4%A2%E7%B2%BE%E5%BD%A9%E6%8E%A2%E7%B4%A2%E7%88%B1/id861891048?uo=4" target="_blank" rel="noopener"
+               class="bg-white text-slate-900 px-4 py-1 rounded-full text-sm font-medium hover:bg-slate-100">
+              App Store ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rankings -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📊 4 国当前榜单排名</span><span class="i18n-ar">📊 الترتيب الحالي في 4 أسواق</span>
+    </h2>
+    <p class="text-xs text-slate-500 mb-3">
+      <span class="i18n-zh">数据来源：Apple Marketing Tools RSS · 实时榜单 Top 100</span>
+      <span class="i18n-ar">المصدر: Apple Marketing Tools RSS · أحدث ترتيب Top 100</span>
+    </p>
+    
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇨🇳</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">中国</span><span class="i18n-ar">الصين</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇪🇬</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">埃及</span><span class="i18n-ar">مصر</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇸🇦</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">沙特</span><span class="i18n-ar">السعودية</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇺🇸</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">美国</span><span class="i18n-ar">الولایات المتحدة</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+  </section>
+
+  <!-- Screenshots -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📸 应用截图</span><span class="i18n-ar">📸 لقطات الشاشة</span>
+    </h2>
+    <div class="mb-3"><div class="text-xs uppercase tracking-wide text-slate-500 mb-2"><span class="i18n-zh">📱 iPhone</span><span class="i18n-ar">📱 iPhone</span></div><div class="flex gap-3 overflow-x-auto pb-2"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/53/52/fb535215-8552-c506-a4c9-b22c83a94bde/9433aaea-dd12-4792-a44e-d0e841e82c29_1242x2208_Uff081_Uff09.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/8e/5b/f58e5bb7-b8c6-bde0-0267-e9599e2a256e/86e5e508-5c07-4e0b-9db5-90e6cb01178e_1242x2208_Uff082_Uff09-tuya.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/20/f2/da20f29b-2d0c-c1b5-6c75-c278d26751e6/5de361a3-3578-4468-98a0-bb2fc9ddc24a_1242x2208_Uff083_Uff09-tuya.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"></div></div>
+  </section>
+
+  <!-- Description -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📝 应用描述</span><span class="i18n-ar">📝 وصف التطبيق</span>
+    </h2>
+    <div id="desc" class="desc-content desc-collapsed text-sm text-slate-700 leading-relaxed">「探探」是一种年轻人的相遇方式。
+如果你因为工作忙圈子小，而找不到属于自己的心动信号，来探探吧。
+时下流行的滑卡交友，左滑代表无感，右滑代表喜欢，用户可以在弹指间快速选出你的心仪之人。如果你喜欢的人恰好也喜欢了你，你们将瞬间匹配开启一场彼此试探的相遇大冒险。当然，如果没有匹配成功，你也不必气馁，好看好玩的年轻人都在这儿，总有一款适合你。
+来探探，一起探索你的恋爱旅程吧。
+
+【产品特点】
+心动匹配，左滑不喜欢，右滑点个赞，配对无骚扰，选择由自己。
+即时聊天，高效配对，心动的人秒回你。
+
+这就是探探，这里有让你怦然心动的恋人，也有和你志趣相投的朋友。
+ 
+【VIP会员服务说明】
+购买VIP会员，享受更优质的滑动配对体验：
+1.会员专属身份标识，享受更优质的滑动配对体验；
+2.每天5个超级喜欢，喜欢更有分量，配对飙升五倍！
+3.滑错无限反悔，强力反悔，瞬间找回错过缘分！
+4.任意更改定位，位置漫游，与全球朋友say嗨！
+5.无限喜欢次数，突破限制，放肆喜欢不再顾虑！
+
+VIP会员当前订购价为12/月起，不同地区单价可能会不同。如果选择购买VIP会员，费用会通过iTunes账户直接支付，在订阅服务到期前24小时，系统将按照订阅类型自动续订和扣除相应费用。购买之后，你可随时前往iTunes商店的设置界面，关闭续费功能。
+探探会员服务协议：http://lp.tantanapp.com/ios</div>
+    <button onclick="document.getElementById('desc').classList.toggle('desc-collapsed'); this.textContent = this.textContent.includes('展开') || this.textContent.includes('عرض') ? this.dataset.collapsed : this.dataset.expanded"
+            data-expanded="收起 / إخفاء" data-collapsed="展开全文 / عرض المزيد"
+            class="mt-2 text-blue-600 text-sm hover:underline">
+      展开全文 / عرض المزيد
+    </button>
+  </section>
+
+  <!-- Info Table -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">ℹ️ 基本信息</span><span class="i18n-ar">ℹ️ المعلومات الأساسية</span>
+    </h2>
+    <table class="w-full"><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">类别</span><span class="i18n-ar">الفئة</span></td><td class="py-2 text-slate-900 text-sm">Social Networking</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">版本</span><span class="i18n-ar">الإصدار</span></td><td class="py-2 text-slate-900 text-sm">7.4.2</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">大小</span><span class="i18n-ar">الحجم</span></td><td class="py-2 text-slate-900 text-sm">443.2 MB</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">发布日期</span><span class="i18n-ar">تاريخ الإصدار</span></td><td class="py-2 text-slate-900 text-sm">2014-05-21</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">更新日期</span><span class="i18n-ar">تاريخ التحديث</span></td><td class="py-2 text-slate-900 text-sm">2026-04-29</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">价格</span><span class="i18n-ar">السعر</span></td><td class="py-2 text-slate-900 text-sm"><span class="i18n-zh">免费</span><span class="i18n-ar">مجاني</span></td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">内容评级</span><span class="i18n-ar">التصنيف العمري</span></td><td class="py-2 text-slate-900 text-sm">17+</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">支持设备数</span><span class="i18n-ar">عدد الأجهزة المدعومة</span></td><td class="py-2 text-slate-900 text-sm">127</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">支持语言</span><span class="i18n-ar">اللغات المدعومة</span></td><td class="py-2 text-slate-900 text-sm">EN, ID, JA, KO, ZH, TH, ZH, VI</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3">Bundle ID</td><td class="py-2 text-slate-900 text-sm"><code class="bg-slate-100 px-1 rounded text-xs">com.yaymedialabs.putong</code></td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3">Track ID</td><td class="py-2 text-slate-900 text-sm">861891048</td></tr></table>
+  </section>
+
+  <!-- Found in Markets -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">🌍 被发现在</span><span class="i18n-ar">🌍 تم العثور عليه في</span>
+    </h2>
+    
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-xl">🇨🇳</div>
+          <div class="flex-1">
+            <div class="font-medium text-sm"><span class="i18n-zh">中国</span><span class="i18n-ar">الصين</span></div>
+            <div class="text-xs text-slate-500"><span class="i18n-zh">搜索词</span><span class="i18n-ar">كلمة البحث</span>: <code class="bg-slate-100 px-1 rounded">社交</code></div>
+          </div>
+          <div class="text-xs text-slate-600">115.3万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+        </div>
+        
+  </section>
+
+  <!-- Similar Apps -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">🔍 同品类相似应用</span><span class="i18n-ar">🔍 تطبيقات مشابهة في نفس الفئة</span>
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-1">
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/social_cn_MOMO.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">MOMO陌陌</div>
+            <div class="text-xs text-slate-500">★ 4.61 · 348.9万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/social_us_mewe__The_Safe_Network.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">mewe: The Safe Network</div>
+            <div class="text-xs text-slate-500">★ 4.44 · 29.4万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/social_us_Truth_Social.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">Truth Social</div>
+            <div class="text-xs text-slate-500">★ 4.52 · 11.8万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/social_us_Bluesky_Social.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">Bluesky Social</div>
+            <div class="text-xs text-slate-500">★ 3.90 · 1.3万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        </div>
+  </section>
+
+</main>
+
+<footer class="text-center py-8 text-xs text-slate-400">
+  <span class="i18n-zh">生成于 2026-05-23 18:33 · 数据来源 Apple iTunes API</span>
+  <span class="i18n-ar">تم الإنشاء في 2026-05-23 18:33 · المصدر Apple iTunes API</span>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.body.classList.remove('lang-zh', 'lang-ar');
+    document.body.classList.add('lang-' + lang);
+    document.documentElement.lang = lang === 'ar' ? 'ar' : 'zh-CN';
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.querySelectorAll('.lang-switch button').forEach(b => {
+      b.classList.toggle('active', b.dataset.lang === lang);
+    });
+    try { localStorage.setItem('popular_lang', lang); } catch(e) {}
+  }
+  document.querySelectorAll('.lang-switch button').forEach(b => {
+    b.addEventListener('click', () => setLang(b.dataset.lang));
+  });
+  try {
+    const saved = localStorage.getItem('popular_lang');
+    if (saved === 'ar' || saved === 'zh') setLang(saved);
+  } catch(e) {}
+</script>
+</body>
+</html>

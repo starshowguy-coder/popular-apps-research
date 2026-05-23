@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hopper: Flights, Hotels & Cars · App 详情</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Tahoma", sans-serif; }
+  body.lang-zh .i18n-ar, body.lang-ar .i18n-zh { display: none; }
+  body.lang-ar .i18n-ar { display: inline; }
+  body.lang-ar { direction: rtl; text-align: right; }
+  body.lang-ar .i18n-ar { font-family: "Tahoma", "Segoe UI", "Arial", sans-serif; line-height: 1.7; }
+  .lang-switch { display: inline-flex; gap: 0; border: 1px solid #cbd5e1; border-radius: 9999px; overflow: hidden; background: white; }
+  .lang-switch button { padding: 0.35rem 0.85rem; font-size: 0.8rem; background: white; color: #475569; border: none; cursor: pointer; }
+  .lang-switch button.active { background: #111827; color: white; }
+  .desc-content { white-space: pre-wrap; }
+  .desc-collapsed { max-height: 12rem; overflow: hidden; position: relative; }
+  .desc-collapsed::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3rem; background: linear-gradient(transparent, white); }
+</style>
+</head>
+<body class="lang-zh bg-slate-50 min-h-screen">
+
+<header class="bg-white border-b border-slate-200 sticky top-0 z-20 backdrop-blur bg-white/90">
+  <div class="max-w-5xl mx-auto px-5 py-3 flex items-center justify-between flex-wrap gap-3">
+    <a href="../categories.html" class="text-sm text-slate-600 hover:text-blue-600">
+      <span class="i18n-zh">← 返回品类画廊</span><span class="i18n-ar">← العودة إلى المعرض</span>
+    </a>
+    <div class="lang-switch">
+      <button data-lang="zh" class="active">中文</button>
+      <button data-lang="ar">العربية</button>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-5xl mx-auto px-5 py-6 space-y-5">
+
+  <!-- App Hero -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+    <div class="bg-gradient-to-br from-orange-500 to-amber-500 p-6 text-white">
+      <div class="flex items-start gap-5 flex-wrap">
+        <img src="../app_icons/travel_us_Hopper__Flights__Hotels___Cars.jpg" class="w-28 h-28 rounded-3xl shadow-lg flex-shrink-0" alt="Hopper: Flights, Hotels & Cars">
+        <div class="flex-1 min-w-0">
+          <div class="text-xs uppercase tracking-widest opacity-80 mb-1">
+            ✈️ 旅行预订
+          </div>
+          <h1 class="text-2xl font-bold mb-1">Hopper: Flights, Hotels & Cars</h1>
+          <div class="text-sm opacity-90 mb-3">Hopper Inc.</div>
+          <div class="flex gap-2 items-center flex-wrap">
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">★ 4.82</span>
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">121.3万 评分 / تقييم</span>
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">免费 / مجاني</span>
+            <a href="https://apps.apple.com/us/app/hopper-flights-hotels-cars/id904052407?uo=4" target="_blank" rel="noopener"
+               class="bg-white text-slate-900 px-4 py-1 rounded-full text-sm font-medium hover:bg-slate-100">
+              App Store ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rankings -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📊 4 国当前榜单排名</span><span class="i18n-ar">📊 الترتيب الحالي في 4 أسواق</span>
+    </h2>
+    <p class="text-xs text-slate-500 mb-3">
+      <span class="i18n-zh">数据来源：Apple Marketing Tools RSS · 实时榜单 Top 100</span>
+      <span class="i18n-ar">المصدر: Apple Marketing Tools RSS · أحدث ترتيب Top 100</span>
+    </p>
+    
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇨🇳</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">中国</span><span class="i18n-ar">الصين</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇪🇬</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">埃及</span><span class="i18n-ar">مصر</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇸🇦</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">沙特</span><span class="i18n-ar">السعودية</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇺🇸</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">美国</span><span class="i18n-ar">الولایات المتحدة</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+  </section>
+
+  <!-- Screenshots -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📸 应用截图</span><span class="i18n-ar">📸 لقطات الشاشة</span>
+    </h2>
+    <p class="text-sm text-slate-400 italic"><span class="i18n-zh">无可用截图</span><span class="i18n-ar">لا توجد لقطات شاشة</span></p>
+  </section>
+
+  <!-- Description -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📝 应用描述</span><span class="i18n-ar">📝 وصف التطبيق</span>
+    </h2>
+    <div id="desc" class="desc-content desc-collapsed text-sm text-slate-700 leading-relaxed">The Hopper app has helped over 100 million travelers find and secure the best price on flights, hotels, homes and car rentals - each and every time they book their trips.
+
+Book Flights, Hotels, Homes & Rental Cars 
+Find millions of flights, hotels, homes, rental cars (and cute bunnies) – all in one app. Book your trip safely and securely, in just a couple taps and a swipe. 
+
+Always Get the Best Price 
+You can watch a trip right in the app and we’ll send you a notification when it’s the best time to buy — recommending you to book now, or maybe wait just a little longer.
+
+Easily Find The Cheapes</div>
+    <button onclick="document.getElementById('desc').classList.toggle('desc-collapsed'); this.textContent = this.textContent.includes('展开') || this.textContent.includes('عرض') ? this.dataset.collapsed : this.dataset.expanded"
+            data-expanded="收起 / إخفاء" data-collapsed="展开全文 / عرض المزيد"
+            class="mt-2 text-blue-600 text-sm hover:underline">
+      展开全文 / عرض المزيد
+    </button>
+  </section>
+
+  <!-- Info Table -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">ℹ️ 基本信息</span><span class="i18n-ar">ℹ️ المعلومات الأساسية</span>
+    </h2>
+    <table class="w-full"><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">类别</span><span class="i18n-ar">الفئة</span></td><td class="py-2 text-slate-900 text-sm">Travel</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">版本</span><span class="i18n-ar">الإصدار</span></td><td class="py-2 text-slate-900 text-sm">7.109.0</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">大小</span><span class="i18n-ar">الحجم</span></td><td class="py-2 text-slate-900 text-sm">213.9 MB</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">发布日期</span><span class="i18n-ar">تاريخ الإصدار</span></td><td class="py-2 text-slate-900 text-sm">2015-01-28</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">更新日期</span><span class="i18n-ar">تاريخ التحديث</span></td><td class="py-2 text-slate-900 text-sm">2026-05-22</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">价格</span><span class="i18n-ar">السعر</span></td><td class="py-2 text-slate-900 text-sm"><span class="i18n-zh">免费</span><span class="i18n-ar">مجاني</span></td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">内容评级</span><span class="i18n-ar">التصنيف العمري</span></td><td class="py-2 text-slate-900 text-sm">4+</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">支持设备数</span><span class="i18n-ar">عدد الأجهزة المدعومة</span></td><td class="py-2 text-slate-900 text-sm">127</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">支持语言</span><span class="i18n-ar">اللغات المدعومة</span></td><td class="py-2 text-slate-900 text-sm">EN, FR, ES</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3">Bundle ID</td><td class="py-2 text-slate-900 text-sm"><code class="bg-slate-100 px-1 rounded text-xs">com.hopper.flights</code></td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3">Track ID</td><td class="py-2 text-slate-900 text-sm">904052407</td></tr></table>
+  </section>
+
+  <!-- Found in Markets -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">🌍 被发现在</span><span class="i18n-ar">🌍 تم العثور عليه في</span>
+    </h2>
+    
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-xl">🇺🇸</div>
+          <div class="flex-1">
+            <div class="font-medium text-sm"><span class="i18n-zh">美国</span><span class="i18n-ar">الولایات المتحدة</span></div>
+            <div class="text-xs text-slate-500"><span class="i18n-zh">搜索词</span><span class="i18n-ar">كلمة البحث</span>: <code class="bg-slate-100 px-1 rounded">travel booking</code></div>
+          </div>
+          <div class="text-xs text-slate-600">121.3万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+        </div>
+        
+  </section>
+
+  <!-- Similar Apps -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">🔍 同品类相似应用</span><span class="i18n-ar">🔍 تطبيقات مشابهة في نفس الفئة</span>
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-1">
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/travel_cn_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">同程旅行-订酒店机票火车票,低价打车</div>
+            <div class="text-xs text-slate-500">★ 4.65 · 21.9万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/travel_cn_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">携程旅行-订酒店机票火车票</div>
+            <div class="text-xs text-slate-500">★ 4.66 · 175.8万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/travel_cn_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">智行旅行-订酒店民宿机票</div>
+            <div class="text-xs text-slate-500">★ 4.87 · 4.8万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/travel_eg_-______Wego.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">حجز طيران وفنادق - ويجو Wego</div>
+            <div class="text-xs text-slate-500">★ 4.67 · 1.0万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/travel_eg_Skyscanner_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">Skyscanner - عروض السفر</div>
+            <div class="text-xs text-slate-500">★ 4.80 · 2.6万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        </div>
+  </section>
+
+</main>
+
+<footer class="text-center py-8 text-xs text-slate-400">
+  <span class="i18n-zh">生成于 2026-05-23 18:33 · 数据来源 Apple iTunes API</span>
+  <span class="i18n-ar">تم الإنشاء في 2026-05-23 18:33 · المصدر Apple iTunes API</span>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.body.classList.remove('lang-zh', 'lang-ar');
+    document.body.classList.add('lang-' + lang);
+    document.documentElement.lang = lang === 'ar' ? 'ar' : 'zh-CN';
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.querySelectorAll('.lang-switch button').forEach(b => {
+      b.classList.toggle('active', b.dataset.lang === lang);
+    });
+    try { localStorage.setItem('popular_lang', lang); } catch(e) {}
+  }
+  document.querySelectorAll('.lang-switch button').forEach(b => {
+    b.addEventListener('click', () => setLang(b.dataset.lang));
+  });
+  try {
+    const saved = localStorage.getItem('popular_lang');
+    if (saved === 'ar' || saved === 'zh') setLang(saved);
+  } catch(e) {}
+</script>
+</body>
+</html>

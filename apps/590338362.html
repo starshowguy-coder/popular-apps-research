@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>网易云音乐-数亿音乐畅听 · App 详情</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Tahoma", sans-serif; }
+  body.lang-zh .i18n-ar, body.lang-ar .i18n-zh { display: none; }
+  body.lang-ar .i18n-ar { display: inline; }
+  body.lang-ar { direction: rtl; text-align: right; }
+  body.lang-ar .i18n-ar { font-family: "Tahoma", "Segoe UI", "Arial", sans-serif; line-height: 1.7; }
+  .lang-switch { display: inline-flex; gap: 0; border: 1px solid #cbd5e1; border-radius: 9999px; overflow: hidden; background: white; }
+  .lang-switch button { padding: 0.35rem 0.85rem; font-size: 0.8rem; background: white; color: #475569; border: none; cursor: pointer; }
+  .lang-switch button.active { background: #111827; color: white; }
+  .desc-content { white-space: pre-wrap; }
+  .desc-collapsed { max-height: 12rem; overflow: hidden; position: relative; }
+  .desc-collapsed::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3rem; background: linear-gradient(transparent, white); }
+</style>
+</head>
+<body class="lang-zh bg-slate-50 min-h-screen">
+
+<header class="bg-white border-b border-slate-200 sticky top-0 z-20 backdrop-blur bg-white/90">
+  <div class="max-w-5xl mx-auto px-5 py-3 flex items-center justify-between flex-wrap gap-3">
+    <a href="../categories.html" class="text-sm text-slate-600 hover:text-blue-600">
+      <span class="i18n-zh">← 返回品类画廊</span><span class="i18n-ar">← العودة إلى المعرض</span>
+    </a>
+    <div class="lang-switch">
+      <button data-lang="zh" class="active">中文</button>
+      <button data-lang="ar">العربية</button>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-5xl mx-auto px-5 py-6 space-y-5">
+
+  <!-- App Hero -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+    <div class="bg-gradient-to-br from-rose-500 to-pink-500 p-6 text-white">
+      <div class="flex items-start gap-5 flex-wrap">
+        <img src="../app_icons/music_cn_-.jpg" class="w-28 h-28 rounded-3xl shadow-lg flex-shrink-0" alt="网易云音乐-数亿音乐畅听">
+        <div class="flex-1 min-w-0">
+          <div class="text-xs uppercase tracking-widest opacity-80 mb-1">
+            🎵 音乐流媒体
+          </div>
+          <h1 class="text-2xl font-bold mb-1">网易云音乐-数亿音乐畅听</h1>
+          <div class="text-sm opacity-90 mb-3">Hangzhou Netease Cloud Music Technology Co., Ltd.</div>
+          <div class="flex gap-2 items-center flex-wrap">
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">★ 4.61</span>
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">201.7万 评分 / تقييم</span>
+            <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">免费 / مجاني</span>
+            <a href="https://apps.apple.com/cn/app/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90-%E6%95%B0%E4%BA%BF%E9%9F%B3%E4%B9%90%E7%95%85%E5%90%AC/id590338362?uo=4" target="_blank" rel="noopener"
+               class="bg-white text-slate-900 px-4 py-1 rounded-full text-sm font-medium hover:bg-slate-100">
+              App Store ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rankings -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📊 4 国当前榜单排名</span><span class="i18n-ar">📊 الترتيب الحالي في 4 أسواق</span>
+    </h2>
+    <p class="text-xs text-slate-500 mb-3">
+      <span class="i18n-zh">数据来源：Apple Marketing Tools RSS · 实时榜单 Top 100</span>
+      <span class="i18n-ar">المصدر: Apple Marketing Tools RSS · أحدث ترتيب Top 100</span>
+    </p>
+    
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇨🇳</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">中国</span><span class="i18n-ar">الصين</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="inline-flex items-center px-2 py-1 rounded text-white text-xs bg-slate-500"><span class="i18n-zh">免费榜</span><span class="i18n-ar">المجاني</span> #68</span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇪🇬</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">埃及</span><span class="i18n-ar">مصر</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇸🇦</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">沙特</span><span class="i18n-ar">السعودية</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-2xl">🇺🇸</div>
+          <div class="flex-1 font-medium text-slate-900"><span class="i18n-zh">美国</span><span class="i18n-ar">الولایات المتحدة</span></div>
+          <div class="flex gap-1.5 flex-wrap justify-end"><span class="text-slate-400 text-xs italic"><span class="i18n-zh">未进 Top 100</span><span class="i18n-ar">خارج المئة الأولى</span></span></div>
+        </div>
+        
+  </section>
+
+  <!-- Screenshots -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📸 应用截图</span><span class="i18n-ar">📸 لقطات الشاشة</span>
+    </h2>
+    <div class="mb-3"><div class="text-xs uppercase tracking-wide text-slate-500 mb-2"><span class="i18n-zh">📱 iPhone</span><span class="i18n-ar">📱 iPhone</span></div><div class="flex gap-3 overflow-x-auto pb-2"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/02/e5/bd02e575-b320-393b-86f5-9dc4b463f83f/1-_U97f3_U4e50_U5361_U7247.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/85/f7/3185f7be-64de-54e0-da10-0116f9fa7d81/2-_U5149_U5f71_U6a21_U5f0f.png/392x696bb.png" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/56/e0/0c56e0eb-1359-c50d-417f-89d7ac6724da/3-_U5c0f_U706f_U6ce1.jpg/392x696bb.jpg" loading="lazy" class="h-80 rounded-lg shadow-sm flex-shrink-0" alt="iPhone screenshot"></div></div>
+  </section>
+
+  <!-- Description -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">📝 应用描述</span><span class="i18n-ar">📝 وصف التطبيق</span>
+    </h2>
+    <div id="desc" class="desc-content desc-collapsed text-sm text-slate-700 leading-relaxed">产品介绍
+看了就停不下来，全网超级热闹的歌曲评论区。真实情感故事、连载小说、硬核科普、趣味段子、文学金句、流行玩梗，你想得到想不到的乐评都在这了。
+网易云音乐是当下十分受年轻用户喜爱的音乐平台之一。在网易云音乐，不仅可以听到海量正版音乐，还能遇见和你同样热爱音乐的伙伴。用音乐连接彼此，用音乐传递美好力量。
+
+【海量曲库】
+收录华语/欧美/日韩等众多语种歌曲，涵盖电音/说唱/摇滚/ACG/古风/古典等超全音乐种类。无论是热门歌手，还是小众音乐人，你都可以在这里找到。
+
+【个性推荐】
+超准智能算法比你更懂你，根据你的日常听歌喜好，将自动推荐给你感兴趣的歌曲。
+
+【有声剧场】
+快速充电的人生书库、精彩纷呈的推理悬疑故事、脑洞搞笑的热门小说、甜到停不下来的热门广播剧，超级还原的游戏原著，好听的小说都在这。
+
+【精品播客】
+音乐推荐、热门翻唱、情感树洞、真实故事……你想听的这里都有；解压、充电、助眠……满足你的所有需求；超千万声音库，给你7*24小时的耳边陪伴。
+
+【品质歌单】
+超34亿歌单库，邀你一起定制跑步、学习、工作、聚会等全场景音乐歌单。
+
+【精彩乐评】
+看了就停不下来，全网热闹歌曲评论区。真实情感故事、连载小说、硬核科普、趣味段子、文学金句、流行玩梗，你想得到想不到的乐评都在这了。
+
+【趣味社区】
+在云村，你不仅可以听音乐，还可以看音乐、聊音乐、玩音乐。音乐视频/一起听/动态/歌房</div>
+    <button onclick="document.getElementById('desc').classList.toggle('desc-collapsed'); this.textContent = this.textContent.includes('展开') || this.textContent.includes('عرض') ? this.dataset.collapsed : this.dataset.expanded"
+            data-expanded="收起 / إخفاء" data-collapsed="展开全文 / عرض المزيد"
+            class="mt-2 text-blue-600 text-sm hover:underline">
+      展开全文 / عرض المزيد
+    </button>
+  </section>
+
+  <!-- Info Table -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">ℹ️ 基本信息</span><span class="i18n-ar">ℹ️ المعلومات الأساسية</span>
+    </h2>
+    <table class="w-full"><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">类别</span><span class="i18n-ar">الفئة</span></td><td class="py-2 text-slate-900 text-sm">Music</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">版本</span><span class="i18n-ar">الإصدار</span></td><td class="py-2 text-slate-900 text-sm">9.5.15</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">大小</span><span class="i18n-ar">الحجم</span></td><td class="py-2 text-slate-900 text-sm">471.6 MB</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">发布日期</span><span class="i18n-ar">تاريخ الإصدار</span></td><td class="py-2 text-slate-900 text-sm">2013-01-24</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">更新日期</span><span class="i18n-ar">تاريخ التحديث</span></td><td class="py-2 text-slate-900 text-sm">2026-05-19</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">价格</span><span class="i18n-ar">السعر</span></td><td class="py-2 text-slate-900 text-sm"><span class="i18n-zh">免费</span><span class="i18n-ar">مجاني</span></td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">内容评级</span><span class="i18n-ar">التصنيف العمري</span></td><td class="py-2 text-slate-900 text-sm">12+</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">支持设备数</span><span class="i18n-ar">عدد الأجهزة المدعومة</span></td><td class="py-2 text-slate-900 text-sm">128</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3"><span class="i18n-zh">支持语言</span><span class="i18n-ar">اللغات المدعومة</span></td><td class="py-2 text-slate-900 text-sm">EN, ZH</td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3">Bundle ID</td><td class="py-2 text-slate-900 text-sm"><code class="bg-slate-100 px-1 rounded text-xs">com.netease.cloudmusic</code></td></tr><tr><td class="py-2 pr-4 text-slate-500 text-sm w-1/3">Track ID</td><td class="py-2 text-slate-900 text-sm">590338362</td></tr></table>
+  </section>
+
+  <!-- Found in Markets -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">🌍 被发现在</span><span class="i18n-ar">🌍 تم العثور عليه في</span>
+    </h2>
+    
+        <div class="flex items-center gap-3 py-2 border-b border-slate-100 last:border-0">
+          <div class="text-xl">🇨🇳</div>
+          <div class="flex-1">
+            <div class="font-medium text-sm"><span class="i18n-zh">中国</span><span class="i18n-ar">الصين</span></div>
+            <div class="text-xs text-slate-500"><span class="i18n-zh">搜索词</span><span class="i18n-ar">كلمة البحث</span>: <code class="bg-slate-100 px-1 rounded">音乐</code></div>
+          </div>
+          <div class="text-xs text-slate-600">201.7万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+        </div>
+        
+  </section>
+
+  <!-- Similar Apps -->
+  <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5">
+    <h2 class="text-lg font-bold text-slate-900 mb-3">
+      <span class="i18n-zh">🔍 同品类相似应用</span><span class="i18n-ar">🔍 تطبيقات مشابهة في نفس الفئة</span>
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-1">
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/music_cn_QQ___-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">QQ音乐 - 听我想听</div>
+            <div class="text-xs text-slate-500">★ 4.62 · 213.0万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/music_cn_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">酷狗音乐 - 就是歌多</div>
+            <div class="text-xs text-slate-500">★ 4.85 · 1432.5万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/music_eg_Spotify.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">Spotify: موسيقى وبودكاست</div>
+            <div class="text-xs text-slate-500">★ 4.66 · 41.3万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/music_eg_Lark_Player__Offline_Music.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">Lark Player: Offline Music</div>
+            <div class="text-xs text-slate-500">★ 4.19 · 16 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        
+        <div class="flex items-center gap-2 p-2 rounded-lg hover:bg-slate-50">
+          <img src="../app_icons/music_eg_SoundCloud_-.jpg" class="w-10 h-10 rounded-lg flex-shrink-0">
+          <div class="flex-1 min-w-0">
+            <div class="text-sm font-medium text-slate-900 truncate">SoundCloud - موسيقى و اغاني</div>
+            <div class="text-xs text-slate-500">★ 4.65 · 32.3万 <span class="i18n-zh">评分</span><span class="i18n-ar">تقييم</span></div>
+          </div>
+        </div>
+        </div>
+  </section>
+
+</main>
+
+<footer class="text-center py-8 text-xs text-slate-400">
+  <span class="i18n-zh">生成于 2026-05-23 18:33 · 数据来源 Apple iTunes API</span>
+  <span class="i18n-ar">تم الإنشاء في 2026-05-23 18:33 · المصدر Apple iTunes API</span>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.body.classList.remove('lang-zh', 'lang-ar');
+    document.body.classList.add('lang-' + lang);
+    document.documentElement.lang = lang === 'ar' ? 'ar' : 'zh-CN';
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.querySelectorAll('.lang-switch button').forEach(b => {
+      b.classList.toggle('active', b.dataset.lang === lang);
+    });
+    try { localStorage.setItem('popular_lang', lang); } catch(e) {}
+  }
+  document.querySelectorAll('.lang-switch button').forEach(b => {
+    b.addEventListener('click', () => setLang(b.dataset.lang));
+  });
+  try {
+    const saved = localStorage.getItem('popular_lang');
+    if (saved === 'ar' || saved === 'zh') setLang(saved);
+  } catch(e) {}
+</script>
+</body>
+</html>
